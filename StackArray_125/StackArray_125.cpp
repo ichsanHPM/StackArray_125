@@ -38,6 +38,11 @@ public:
         cout << "\nThe popped element is : " << stack_array[top] << endl;
         top--;
     }
+
+    //method for check if data empty
+    bool empty() {
+        return(top == -1);
+    }
 };
 
 int main()
