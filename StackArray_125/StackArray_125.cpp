@@ -43,6 +43,10 @@ public:
     bool empty() {
         return(top == -1);
     }
+
+    void display() {
+        
+    }
 };
 
 int main()
