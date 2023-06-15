@@ -75,7 +75,15 @@ int main()
         case '1': {
             s.push();
             break;
-        }
+            }
+
+        case '2':
+            if (s.empty()) {
+                cout << "\nstack is empty." << endl;
+                break;
+            }
+            s.pop();
+            break;
         }
     }
 }
