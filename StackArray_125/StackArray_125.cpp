@@ -22,6 +22,21 @@ public:
         cout << "\nEnter a element : ";
         string element;
         getline(cin, element);
+
+        top++;
+        stack_array[top] = element;
+        cout << endl;
+        cout << element << "ditambahkan (pushed)" << endl;
+    }
+
+    void pop() {
+        if (empty()) {
+            cout << "\nstack is empty.canot pop." << endl;
+            return;
+        }
+
+        cout << "\nThe popped element is : " << stack_array[top] << endl;
+        top--;
     }
 };
 
