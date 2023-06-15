@@ -13,7 +13,16 @@ public:
         top = -1;
     }
 
-    
+    void push() {
+        if (top == 4) {
+            cout << "number of data eceds the limits." << endl;
+            return;
+        }
+
+        cout << "\nEnter a element : ";
+        string element;
+        getline(cin, element);
+    }
 };
 
 int main()
