@@ -58,7 +58,23 @@ public:
 
 int main()
 {
+    stackArray s;
+    while (true) {
+        cout << endl;
+        cout << "n=== stack menu ===\n";
+        cout << "1. push\n";
+        cout << "2. pop\n";
+        cout << "3. display\n";
+        cout << "4. exit\n";
+        cout << "\nEnter your choice: ";
+        string input;
+        getline(cin, input);
+        char ch = (input.empty() ? '0' : input[0]);
 
+        switch(ch) {
+
+        }
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
